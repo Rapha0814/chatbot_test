@@ -10,6 +10,10 @@ from flask import Flask, request, make_response
 
 app = Flask(__name__)
 
+slack_token = ""
+slack_client_id = ""
+slack_client_secret = ""
+slack_verification = ""
 sc = SlackClient(slack_token)
 
 
