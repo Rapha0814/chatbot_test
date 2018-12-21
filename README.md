@@ -1,40 +1,32 @@
-#  #은 html h tag와 같다
+# SSAFY Chat Bot Project
 
-# Hello
+## 요약
+## Requirements
+- click==6.7
+- Flask==0.12.2
+- itsdangerous==0.24
+- Jinja2==2.9.6
+- MarkupSafe==1.0
+- numpy
+- pyaml==16.9.0
+- PyYAML ==3.12
+- requests-oauthlib==0.8.0
+- requests==2.18.4
+- six==1.10.0
+- slackclient==1.0.2
+- websocket-client==0.37.0
+- Werkzeug==0.12.2
+- beautifulsoup4==4.6.3
 
-## Hello
+## 설명
+별자리, 띠별 운세를 알려주는 챗봇
 
-### Hello
+## 시연
+![image](https://user-images.githubusercontent.com/29854777/50328718-96a13c00-0537-11e9-80e5-26d1c90675e4.png)
+![image](https://user-images.githubusercontent.com/29854777/50328733-a1f46780-0537-11e9-8e22-c1a95592eb59.png)
 
-#### Hello
-
-##### Helllo
-
-###### Hello
-
-- 목록
-    - 컴퓨터
-        - *삼성*
-        - LG
-    - 노트북
+## Issue
+- code upload 할 때 slack_token 을 포함해서 올리면 slack에서 해당 토큰 밴함
+- 분기 조건이 생각보다 많음
 
 
-- 목차
-1. 안녕
-1. hello
-1. 니하오
-
-[이거 링크임]("https://ssafy.elice.io")
-
-## 이거 핵꿀팁
-이미지 올릴때 github에서 issue tab - New issue - 복사한 이미지 붙여넣기 하면 - 자동으로 md 형식으로 변환해줌
-
-![image](https://user-images.githubusercontent.com/29854777/50328244-b9caec00-0535-11e9-975b-8b4e09f02fb0.png)
-
-|이름|성적|
-|------|-----|
-|가나다|100|
-|라마바|90|
-|사아자|80|
-|차카타|70|
-|파하아|60|
